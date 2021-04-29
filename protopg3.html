@@ -34,7 +34,7 @@
         background-color: white;
         }
 
-     
+        /* additional top nav features */
         .topnav a {
         float: left;
         color: grey;
@@ -44,8 +44,6 @@
         font-size: 17px;
         }
 
-        
-  
         .topnav a:hover {
           background-color: #ddd;
           color: black;
@@ -57,13 +55,14 @@
         }
 
 
-
+        /* styles the welcome message at the top of the page */
 		   .danger {
 		      background-color: #ffdddd;
 		      border-left: 6px solid #f44336;
 		      }
 
 
+        /* styles the cards for the statistics */
          * {
             box-sizing: border-box;
           }
@@ -72,24 +71,24 @@
             font-family: Verdana, sans-serif;
           }
 
-          /* Float four columns side by side */
+          /* place the columns beside each other */
           .column {
             float: left;
             width: 25%;
             padding: 0 10px;
           }
 
-          /* Remove extra left and right margins, due to padding in columns */
+          /* removes extra margins */
           .row {margin: 0 -5px;}
 
-          /* Clear floats after the columns */
+          /* clears float between columns */
           .row:after {
             content: "";
             display: table;
             clear: both;
           }
 
-          /* Style the counter cards */
+          /* styles the counter cards */
           .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
             padding: 16px;
@@ -97,7 +96,7 @@
             background-color: white;
           }
 
-          /* Responsive columns - one column layout (vertical) on small screens */
+          /* makes the feature adjustable based on screen size */
           @media screen and (max-width: 600px) {
             .column {
               width: 100%;
@@ -108,7 +107,7 @@
 
 
 
-
+          /*creates the layout for the FAQ section*/
           * {
             box-sizing: border-box;
           }
@@ -124,6 +123,7 @@
             clear: both
           }
 
+          /* 3/3 column */
            .column-99 {
             float: left;
             width: 100%;
@@ -146,7 +146,7 @@
 
  
 
-          /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
+          /* Add responsiveness  */
           @media screen and (max-width: 2000px) {
             .column-66,
             .column-33
@@ -157,11 +157,12 @@
           }
 
 
-
+          /* styles the flip card at the bottom of the page */
            body {
             font-family: Verdana, sans-serif;
           }
 
+          /* styles outside of card */
           .flip-card {
             background-color: transparent;
             width: 700px;
@@ -170,6 +171,7 @@
             padding: 16px;
           }
 
+          /* styles inside of the card */
           .flip-card-inner {
             position: relative;
             width: 100%;
@@ -180,6 +182,7 @@
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
           }
 
+          /* parameters for when you hover over */
           .flip-card:hover .flip-card-inner {
             transform: rotateY(180deg);
           }
@@ -209,6 +212,8 @@
 
 	<body> <!--Body Portion-->
 
+
+    <!--Creates topnav and pages-->
 		 <div class="topnav">
 
       		<a class="active">SDG #11</a>
@@ -217,15 +222,16 @@
 
          </div>
 
+         <!--creates header-->
       <h1 class="features">Sustainable Development Goal #11</h1>
 
 
-
+      <!--creates welcome message-->
 	    <div class="danger">
 	     <p><strong>Welcome! </strong> Hello and welcome to the third page of my website. On this page you will see a variety of different statistics and descriptions about sustainable cities and communities. Please note that most of the information in this website has been taken from the UN or the UNDP, this is not a professional website.</p>
 	    </div>
 
-
+  <!--creates statistic cards-->
     <div class="row">
       <div class="column">
         <div class="card"><h2>4.2 Billion</h2><p>In 2018, 4.2 billion people, 55 percent of the world's population, lived in cities. By 2050, the urban population is expected to reach 6.5 billion.</p></div>
@@ -243,7 +249,7 @@
 
 
 
-
+      <!--creates FAQ section and sets up the layout-->
       <div class="container">
         <div class="row">
           <div class="column-66">
@@ -282,7 +288,7 @@
       </div>
 
 
-
+        <!--creates flip card and content within it-->
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
