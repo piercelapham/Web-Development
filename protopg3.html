@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+  <html>
+
+<!--SDG 11 Page - Page 3-->
+
+  <head> <!--Head Portion-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+
+    	/* h1 features */
+        h1.features {
+        text-align: center;
+        color: lightblue;
+        background-color: navy;
+        color: white;
+        }
+
+        /* p features */
+        p.features {
+        text-align: center;
+        color: blue;
+        }
+
+        /* body features */
+        body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: cornflowerblue;
+        }
+
+        /* topnav bar features */
+        .topnav {
+        overflow: hidden;
+        background-color: white;
+        }
+
+     
+        .topnav a {
+        float: left;
+        color: grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        
+  
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .topnav a.active {
+          background-color: navy;
+          color: white;
+        }
+
+
+
+		   .danger {
+		      background-color: #ffdddd;
+		      border-left: 6px solid #f44336;
+		      }
+
+
+         * {
+            box-sizing: border-box;
+          }
+
+          body {
+            font-family: Verdana, sans-serif;
+          }
+
+          /* Float four columns side by side */
+          .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+          }
+
+          /* Remove extra left and right margins, due to padding in columns */
+          .row {margin: 0 -5px;}
+
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Style the counter cards */
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+            padding: 16px;
+            text-align: center;
+            background-color: white;
+          }
+
+          /* Responsive columns - one column layout (vertical) on small screens */
+          @media screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+              display: block;
+              margin-bottom: 20px;
+            }
+          }
+
+
+
+
+          * {
+            box-sizing: border-box;
+          }
+
+          .container {
+            padding: 20px;
+          }
+
+          /* Clear floats */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both
+          }
+
+           .column-99 {
+            float: left;
+            width: 100%;
+            padding: 12px;
+          }
+
+          /* 2/3 column */
+          .column-66 {
+            float: left;
+            width: 100%;
+            padding: 12px;
+          }
+
+          /* 1/3 column */
+          .column-33 {
+            float: left;
+            width: 100%;
+            padding: 12px;
+          }
+
+ 
+
+          /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
+          @media screen and (max-width: 2000px) {
+            .column-66,
+            .column-33
+            .column-99 {
+              width: 100%;
+              text-align: left;
+            }
+          }
+
+
+
+           body {
+            font-family: Verdana, sans-serif;
+          }
+
+          .flip-card {
+            background-color: transparent;
+            width: 700px;
+            height: 359px;
+            perspective: 1000px;
+            padding: 16px;
+          }
+
+          .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          }
+
+          .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+          }
+
+          .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+          }
+
+          .flip-card-front {
+            background-color: #bbb;
+            color: black;
+          }
+
+          .flip-card-back {
+            background-color: #2980b9;
+            color: white;
+            transform: rotateY(180deg);
+          }
+
+    </style>
+
+  </head> <!--End of Head Portion-->
+
+	<body> <!--Body Portion-->
+
+		 <div class="topnav">
+
+      		<a class="active">SDG #11</a>
+      		<a href="protopg1.html">Home</a>
+           	<a href="protopg2.html">SDG #7</a>
+
+         </div>
+
+      <h1 class="features">Sustainable Development Goal #11</h1>
+
+
+
+	    <div class="danger">
+	     <p><strong>Welcome! </strong> Hello and welcome to the third page of my website. On this page you will see a variety of different statistics and descriptions about sustainable cities and communities. Please note that most of the information in this website has been taken from the UN or the UNDP, this is not a professional website.</p>
+	    </div>
+
+
+    <div class="row">
+      <div class="column">
+        <div class="card"><h2>4.2 Billion</h2><p>In 2018, 4.2 billion people, 55 percent of the world's population, lived in cities. By 2050, the urban population is expected to reach 6.5 billion.</p></div>
+      </div>
+      <div class="column">
+        <div class="card"><h2>3%</h2><p>Cities occupy just 3% of the earth's land but account for 60-80% of energy consumption and at least 70% of carbon emissions.</p></div>
+      </div>
+      <div class="column">
+        <div class="card"><h2>828 Million</h2><p>828 Million People are estimated to live in slums and the number is rising.</p> </div>
+      </div>
+      <div class="column">
+        <div class="card"><h2>80%</h2><p>The economic role of citiies in significant. They generate about 80% of the global GDP. </p></div>
+      </div>
+    </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="column-66">
+            <h2>What is SDG #11? </h2>
+          </div>
+          <br>
+          <div class="column-33">
+            <h4 style="color:navy;">Sustainable Development Goal #11, Sustainable Cities and Communities represents a set of goals revolving around developing and building cities for the long term. </h4> <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="column-33">
+            <h2>What are the goals within SDG #11? </h2>
+          </div>
+          <br>
+          <div class="column-66">
+            <h4 style="color:navy;">There are a variety of goals within SDG #11, including: <br>-By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums. <br>-By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons. <br>-By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries. </h4>
+          </div> <br>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="column-99">
+            <h2>Why should I care?</h2>
+          </div>
+          <br>
+          <div class="column-99">
+            <h4 style="color:navy">More than half of us  live in cities. By 2050, two-thirds of all humanity—6.5 billion people—will be urban. Sustainable development cannot be achieved without significantly transforming the way we build and manage our urban spaces. The rapid growth of cities—a result of rising populations and increasing migration—has led to a boom in mega-cities, especially in the developing world, and slums are becoming a more significant feature of urban life. Making cities sustainable means creating career and business opportunities, safe and affordable housing, and building resilient societies and economies. It involves investment in public transport, creating green public spaces, and improving urban planning and management in participatory and inclusive ways. </h4>
+          </div> <br>
+        </div>
+      </div>
+
+
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="city.jpg" alt="Avatar" style="width:700px;height:359px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Links to related articles</h1> 
+                <p>Copy these links:</p> 
+                <p>https://www.jointsdgfund.org/sustainable-development-goals/goal-11-sustainable-cities-and-communities</p>
+                <p>https://sdg-tracker.org/cities</p>
+                <p>https://www.gvicanada.ca/goal-11-sustainable-cities-and-communities/</p>
+              </div>
+            </div>
+          </div>
+
+	</body> <!--End of Body Portion-->
+
+
+  </html>

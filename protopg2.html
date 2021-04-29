@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+  <html>
+
+  <!--SDG 7 Page - Page 2-->
+
+  <head> <!--Head Portion-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* h1 features */
+        h1.features {
+        text-align: center;
+        color: lightblue;
+        background-color: navy;
+        color: white;
+        }
+
+        /* p features */
+        p.features {
+        text-align: center;
+        color: blue;
+        }
+
+        /* body features */
+        body {
+        margin: 0;
+        font-family: Verdana, sans-serif;
+        background-color: cornflowerblue;
+        }
+
+        /* topnav bar features */
+        .topnav {
+        overflow: hidden;
+        background-color: white;
+        }
+
+      /* additional top nav features */
+        .topnav a {
+        float: left;
+        color: grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+      
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+
+        .topnav a.active {
+          background-color: navy;
+          color: white;
+        }
+
+
+      /* styling for the welcome message */
+      .danger {
+        background-color: #ffdddd;
+        border-left: 6px solid #f44336;
+      }
+
+  
+
+     /*blog layout css*/ 
+      body {
+        font-family: Verdana;
+        padding: 0px;
+        background: cornflowerblue;
+      }
+
+      /* Creates two columns and places them next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 62%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 35%;
+        padding-left: 20px;
+      }
+
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+      /* responsive layout for when the size of the screen is adjusted */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* padding */
+      * {box-sizing:border-box}
+
+      /* container for the percentage bar */
+      .container {
+        width: 100%; 
+        background-color: blue; 
+
+      }
+
+      /* skill bar allignment */
+      .skills {
+        text-align: right; 
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        padding-right: 10px
+        padding-left: 10px;
+        color: white; 
+      }
+
+      /* length of skill bar */
+      .html {width: 17%; background-color: #4CAF50;} /* Green */
+
+
+      /* collapsible styling */
+      .collapsible {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+
+      /* background colour for when the collapsible is hovered over */
+      .active, .collapsible:hover {
+        background-color: #ccc;
+      }
+
+      /* Style the collapsible content */
+      .content {
+        padding: 18px;
+        display: none;
+        overflow: hidden;
+        background-color: white;
+      }
+
+    </style>
+
+  </head> <!--End of Head Portion-->
+
+  <body> <!--Body Portion-->
+
+
+
+     <!--creates top nav and pages--> 
+      <div class="topnav">
+
+      		<a class="active">SDG #7</a>
+          <a href="protopg1.html">Home</a>
+          <a href="protopg3.html">SDG #11</a>
+      </div>
+
+    <!--creates header-->
+    <div class="header">
+       <h1 class="features">Sustainable Development Goal #7</h1>
+      </div>
+
+      <!--creates welcome message-->
+    <div class="danger">
+     <p><strong>Welcome! </strong> Hello and welcome to the second page of my website. On this page you will see a variety of different statistics and descriptions about renewable energy sources.</p>
+    </div>
+
+
+    <!--creates collapsible-->
+      <button type="button" class="collapsible">What percentage of energy comes from renewable sources? (2017) + </button>
+        <div class="content">
+         <div class="container"></div>
+        <div class="skills html">17.5%</div>
+      </div>
+
+        
+      <!--creates the columns and content within the columns for the blog layout-->
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Wind Energy</h2>
+          <div> <img src="wind.jpg" style="height:500px;" ></div>
+            <p>Wind energy describes the process by which wind is used to generate electricity. In this process, wind turbines convert the kinetic energy in the wind into mechanical power. A generator within the mechanism then converts the mechanical power into electricity. Wind turbines are often seen on wind farms, these farms are often located in optimal spots in order to produce maximum energy. Wind energy is a renewable energy source and does not have a negative effect on the environment</p>
+          </div>
+          <div class="card">
+            <h2>Solar Energy</h2>
+            <div> <img src="solar.jpg" style="height:500px;"></div>
+            <p>Solar energy is a process where energy from the sun is captured and converted into usable electricity. Solar energy is created by nuclear fusion that takes place in the sun. The energy, heat, and light from the sun flow away in the form of electromagnetic radiation. Solar energy similarly to wind energy is a renewable energy source. Solar panels are the most common mechanism used to harness solar energy. Solar panels are often seen on roofs of homes and buildings and can power various different things.</p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Renewable Energy</h2>
+            <div> <img src="energy.jpg" style="height:285px;"></div>
+            <p>Renewable Energy is the energy we derive from Earth's naturally occuring resources such as heat, wind and water. These sources are referred to as renewable because they are sustainable and inexhaustabible. Renewable energy isn't used nearly as much as non-renewable energy, but its use is increasing</p>
+          </div>
+          <div class="card">
+            <h2>Non-Renewable Energy</h2>
+            <div> <img src="rename.jpg" style="height:245px;"></div>
+            <p>Non-Renewable Energy is the energy that comes from non-renewable sources, meaning these sources are in fact exhaustible. Non-renewable sources include fossil fuels such as coal, oil and natural gas. These fossil fuels are the primary sources of Energy across the world and are finite resources that are damaging to the environment. The top cause of carbon emissions in the US comes from electricity generation produced by burning fossil fuels.</p>
+          </div>
+          <div class="card">
+            <h1>Key Statistics</h1>
+            <p>-One out of 10 people still lack electricity, most of which live in rural areas of the developing world - more than half are in Sub-saharan Africa <br> -Energy is by far the main contributor to climate change. It accounts for 73% of human-caused greenhouse gasses. <br> -2.8 billion people in the world rely on polluting and unhealthy fuels for cooking <br> -As of 2017, 17.5% of power was generated through rebewable power sources <br> -The renewable energy sector employed 11.5 million people in 2019. <br> -The right energy efficiency policies could enable the world to achieve 40% of the emissions cuts needed to reach its climate goals - without new technology <br> </p>
+          </div>
+
+
+  </body> <!--End of Body Portion-->
+
+
+  <script> /* beginning of script portion */
+    /* javascript for the collapsible */
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+</script> 
+
+</html>
